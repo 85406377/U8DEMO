@@ -17,7 +17,7 @@
 - [源码下载](https://github.com/85406377/U8DEMO)
 - QQ：85406377
 - 微信公众号<br/>
-  ![微信公众号](http://open.yonyouup.com/styles/function/documentCenter/images/qaCode.png "微信公众号")
+  ![微信公众号](http://www.pcyuepu.top/statics/elements/qrcode.png "微信公众号")
 
 
 ### 项目说明
