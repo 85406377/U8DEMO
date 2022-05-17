@@ -1,14 +1,21 @@
 #openapi4net
-
+- 项目环境：
+- VS2019
 - OpenAPI4Net SDK 为用友官方发布的 SDK，以最新更新为主。
 
-### 版权
-- 用友优普技术有限公司
-- 用友优普开放平台
+### 准备工作
+-step 1. U8开放平台官网注册
+  Link: http://open.yonyouup.com/login/toLogin
+-step 2. 申请应用帐号
+-step 3. 下载 openapi4net-master，我选的C#, 接口是VS2010开发的
+-step4. 申请测试帐号
+-step5. 开放平台客户端下载
+  Link:https://u8open.yonyou.com/download/client
+-step6. 客户端参数和数据库设置
 
 ### 关于我们
-- [用友优普开放平台官网](http://open.yonyouup.com)
-- QQ 交流群：320582917
+- [源码下载](https://github.com/85406377/U8DEMO)
+- QQ：85406377
 - 微信公众号<br/>
   ![微信公众号](http://open.yonyouup.com/styles/function/documentCenter/images/qaCode.png "微信公众号")
 
@@ -16,14 +23,15 @@
 ### 项目说明
 - OpenAPI4Net 主项目
 - OpenAPI4Net.Examples 测试项目
-- Visual Studio 2010 版本下编写
+- WebApplication1 Web项目
+- Visual Studio 2019 版本下编写
 - 源码基于 Framework 2.0 编写
 
 ### 准备工作
 - 使用 SDK 前请先配置：<br/>
   OpenAPI4Net/config/globals.xml
 
-### API 调用过程
+### U8 API 调用过程
 1. 实例化 API 类<br/>
    SaleorderApi api = new SaleorderApi();<br/> // 销售订单 API
 2. 调用 API 方法<br/>
@@ -49,5 +57,5 @@
 　　app.exe<br/>
 　　　　|- config<br/>
 　　　　　　|- globals.xml<br/>
-- 使用测试项目 OpenAPI4Net.Examples，请先配置：<br/>
-　　OpenAPI4Net.Examples\bin\Debug\Config\globals.xml；
+- 使用测试项目 OpenAPI4Net.WebApplication1，请先配置：<br/>
+　　OpenAPI4Net\WebApplication1\Config\globals.xml；
