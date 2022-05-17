@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+
+<config>
+  <sdk>
+    <app_key>opa3d03227849dabdc2</app_key>
+    <app_secret>b748018a64e34bae8300d4134fd824d3</app_secret>
+    <from_account>ldrong</from_account>
+    <to_account>test_ldrong</to_account>
+    <base_url>https://api.yonyouup.com/</base_url>
+  </sdk>
+  <!--错误级别：info/debug/error-->
+  <!--token 2a61679106ae43b5913a8099645a7f93-->
+  <!--单次日志字符大小：max_length-->
+  <!--日志文件:file （默认:当前进程位置\log\openapi_sdk.log）-->
+  <log info="true" debug="true" error="true" max_length="2000" file="" />
+</config>

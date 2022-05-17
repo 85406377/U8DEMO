@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8ABF0AC7-C6B3-42D4-A164-AFA1482D076A}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OpenAPI4Net.Examples</RootNamespace>
+    <AssemblyName>OpenAPI4Net.Examples</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>OpenAPI4Net.Examples.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="api\Accept.cs" />
+    <Compile Include="api\Account.cs" />
+    <Compile Include="api\Attendance.cs" />
+    <Compile Include="api\Businesstravelorder.cs" />
+    <Compile Include="api\Code.cs" />
+    <Compile Include="api\Consignment.cs" />
+    <Compile Include="api\Currentstock.cs" />
+    <Compile Include="api\Customer.cs" />
+    <Compile Include="api\Customerclass.cs" />
+    <Compile Include="api\Department.cs" />
+    <Compile Include="api\Digest.cs" />
+    <Compile Include="api\Dsign.cs" />
+    <Compile Include="api\Fitem.cs" />
+    <Compile Include="api\Freearch.cs" />
+    <Compile Include="api\Inventory.cs" />
+    <Compile Include="api\Inventoryclass.cs" />
+    <Compile Include="api\Otherout.cs" />
+    <Compile Include="api\Oughtreceive.cs" />
+    <Compile Include="api\Payunit.cs" />
+    <Compile Include="api\Payunitclass.cs" />
+    <Compile Include="api\Person.cs" />
+    <Compile Include="api\Productprofitability.cs" />
+    <Compile Include="api\Purchaseorder.cs" />
+    <Compile Include="api\Salary.cs" />
+    <Compile Include="api\Salaryitem.cs" />
+    <Compile Include="api\Saleorder.cs" />
+    <Compile Include="api\Unit.cs" />
+    <Compile Include="api\Vendor.cs" />
+    <Compile Include="api\Vendorclass.cs" />
+    <Compile Include="api\Voucher.cs" />
+    <Compile Include="api\User.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Util\Config.cs" />
+    <Compile Include="Util\ConfigPath.cs" />
+    <Compile Include="Util\Log.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Config\Globals.xml">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OpenAPI4Net\OpenAPI4Net.csproj">
+      <Project>{A9A26761-6B81-48F4-AAF7-6B6EED3CF7F0}</Project>
+      <Name>OpenAPI4Net</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
