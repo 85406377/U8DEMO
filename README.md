@@ -4,14 +4,14 @@
 - OpenAPI4Net SDK 为用友官方发布的 SDK，以最新更新为主。
 
 ### 准备工作
--step 1. U8开放平台官网注册
+- step 1. U8开放平台官网注册
   Link: http://open.yonyouup.com/login/toLogin
--step 2. 申请应用帐号
--step 3. 下载 openapi4net-master，我选的C#, 接口是VS2010开发的
--step4. 申请测试帐号
--step5. 开放平台客户端下载
+- step 2. 申请应用帐号
+- step 3. 下载 openapi4net-master，我选的C#, 接口是VS2010开发的
+- step4. 申请测试帐号
+- step5. 开放平台客户端下载
   Link:https://u8open.yonyou.com/download/client
--step6. 客户端参数和数据库设置
+- step6. 客户端参数和数据库设置
 
 ### 关于我们
 - [源码下载](https://github.com/85406377/U8DEMO)
