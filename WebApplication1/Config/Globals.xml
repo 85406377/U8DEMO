@@ -2,10 +2,10 @@
 
 <config>
   <sdk>
-    <app_key>opa3d03227849dabdc2</app_key>
-    <app_secret>b748018a64e34bae8300d4134fd824d3</app_secret>
-    <from_account>ldrong</from_account>
-    <to_account>test_ldrong</to_account>
+    <app_key>***</app_key>
+    <app_secret>***</app_secret>
+    <from_account>**</from_account>
+    <to_account>**</to_account>
     <base_url>https://api.yonyouup.com/</base_url>
   </sdk>
   <!--错误级别：info/debug/error-->
